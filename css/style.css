@@ -1,0 +1,47 @@
+*{
+ background-color: #efefef;
+}
+.menu{
+    background-color: #fcba69; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    padding: .5em;
+    
+}
+
+.menu div{
+    color: #595e77;
+    background-color: #fcba69; 
+    padding: .5em;
+    text-align: center;
+}
+
+.container-1 div{
+    display: grid;
+}
+
+.container-1{
+    grid-column: 1/4;
+    padding: 1.5em 5em 1.5em 5em;
+}
+
+.title div{
+    display: grid;
+}
+
+.title{
+    grid-column:1/4;
+    padding: .5em;
+    font-size: 13px;
+    text-align: center;
+}
+
+.click div{
+    padding: 3em;
+}
+
+button{
+    padding: 3em;
+    margin: 3em 10em 3em 10em;
+}

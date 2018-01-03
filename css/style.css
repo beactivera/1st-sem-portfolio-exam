@@ -1,10 +1,15 @@
 *{
  background-color: #efefef;
 }
+
+.notshowing{
+    display: none;
+}
+
 .menu{
     background-color: #fcba69; 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
     grid-gap: 1em;
     padding: .5em;
     
@@ -15,6 +20,17 @@
     background-color: #fcba69; 
     padding: .5em;
     text-align: center;
+}
+
+footer{
+    display: grid;
+}
+
+footer div{
+    text-align: center;
+    font-size: 13px;
+    padding: 1em;
+
 }
 
 .container-1 div{
@@ -33,16 +49,16 @@
 .title{
     grid-column:1/4;
     padding: .5em;
-    font-size: 13px;
+    font-size: 15px;
     text-align: center;
 }
 
 
-.click{
+.clicked{
     display: grid;
     grid-column:1/4;
     padding: .5em;
-    font-size: 13px;
+    font-size: 15px;
     text-align: center;
 }
 

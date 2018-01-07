@@ -1,43 +1,44 @@
 /* all pages */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans'); 
 
-*{
- background-color: #efefef;
-    margin:0;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+    background-color: #efefef;
+    margin: 0;
     padding: 0;
- }
+}
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
     max-width: 100%;
     overflow-x: hidden;
 }
 
-.notshowing{
+.notshowing {
     display: none;
 }
 
 
-.menu{
+.menu {
     background-color: #595e77;
-     color: #272b3d;
+    color: #272b3d;
     display: grid;
     grid-template-columns: 1fr;
     padding: 1em;
     width: 100%;
 }
 
-.menu div{
-    background-color: #595e77; 
+.menu div {
+    background-color: #595e77;
     text-align: center;
     width: 100%;
 }
 
-.color-nav{
+.color-nav {
     color: #fcba69;
 }
 
-.logo-nav{
+.logo-nav {
     background-image: url(/images/logo_rose_sign.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -46,44 +47,44 @@ body{
     align-self: center;
 }
 
-footer div{
+footer div {
     position: fixed;
     background-color: #595e77;
     color: #272b3d;
     text-align: center;
     font-size: 13px;
     padding: .3em;
-    width:100%;
+    width: 100%;
     bottom: 0;
 
 }
 
-.container-1 div{
+.container-1 div {
     display: grid;
 }
 
-.container-1{
+.container-1 {
     grid-column: 1/5;
     padding: 1em;
 }
 
 
-.title div{
+.title div {
     display: grid;
 }
 
-.title{
+.title {
     color: #272b3d;
-    grid-column:1/5;
+    grid-column: 1/5;
     padding: .5em;
     font-size: 15px;
     font-weight: bold;
     text-align: center;
 }
 
-.clicked{
+.clicked {
     display: grid;
-    grid-column:1/5;
+    grid-column: 1/5;
     padding: .5em;
     font-size: 15px;
     text-align: center;
@@ -91,50 +92,53 @@ footer div{
 }
 
 
-.container-2{
+.container-2 {
     display: grid;
     grid-template-columns: 1fr;
     padding: 1em;
 }
 
-.container-2 div{
+.container-2 div {
     text-align: center;
     align-self: center;
 }
 
 
-.mmd{
+.mmd {
     padding: .3em;
-    width:100%;
+    width: 100%;
     background-color: #731240;
 }
 
-.mmd p{ 
+.mmd p {
     background-color: #731240;
     text-align: center;
     color: #272b3d;
-    
+
 }
 
-.box1, .box2, .box3, .box4{
+.box1,
+.box2,
+.box3,
+.box4 {
     padding: 0em;
     transition: ease-out;
-    color:#272b3d;
+    color: #272b3d;
     font-weight: bold;
 }
 
-.box1 p{
+.box1 p {
     padding: 3em;
     font-size: 2em;
     background: none;
 }
 
-.box1 p:hover{
+.box1 p:hover {
     opacity: 0;
 }
 
-.box1:hover{    
-    background-image:url(/images/psychedelic_style_1280x619.png);
+.box1:hover {
+    background-image: url(/images/psychedelic_style_1280x619.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -142,93 +146,94 @@ footer div{
 }
 
 
-.box2 p{
+.box2 p {
     padding: 3em;
     font-size: 2em;
     background: none;
 }
 
-.box2 p:hover{
+.box2 p:hover {
     opacity: 0;
 }
 
-.box2:hover{
-    background-image:url(/images/logo_hunchback.png);
+.box2:hover {
+    background-image: url(/images/logo_hunchback.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     opacity: 0.3;
 }
 
-.box3 p{
+.box3 p {
     padding: 3em;
     font-size: 2em;
     background: none;
 }
 
-.box3 p:hover{
+.box3 p:hover {
     opacity: 0;
 }
 
-.box3:hover{
-    background-image:url(/images/logo_studenthub.png);
-    background-position:center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    opacity: 0.3;   
-}
-
-.box4 p{
-    padding: 3em;
-    font-size: 2em;
-    background: none;
-}
-
-.box4 p:hover{
-    opacity: 0;
-}
-.box4:hover{
-    background-image:url(/images/logo_vidino.png);
+.box3:hover {
+    background-image: url(/images/logo_studenthub.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    opacity: 0.3;   
+    opacity: 0.3;
 }
 
-.animation-title{
+.box4 p {
+    padding: 3em;
+    font-size: 2em;
+    background: none;
+}
+
+.box4 p:hover {
+    opacity: 0;
+}
+
+.box4:hover {
+    background-image: url(/images/logo_vidino.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+}
+
+.animation-title {
     display: grid;
     grid-template-columns: 1fr;
     padding: 2em;
 }
 
-.hunchback{
+.hunchback {
     text-align: center;
     padding: 3em;
 }
 
-.hunchback li{
+.hunchback li {
     list-style-type: none;
     padding: 1em;
 }
 
-.extra{
+.extra {
     text-align: center;
     padding: 3em;
 }
 
-.extra li{
-        list-style-type: none;
+.extra li {
+    list-style-type: none;
     padding: 1em;
 }
 
 
-.app-title{
-    display:grid;
+.app-title {
+    display: grid;
     grid-template-columns: 1fr;
     padding: 4em;
 }
 
-.student{
+.student {
     padding: 1em;
     text-align: center;
     font-weight: bold;
@@ -236,10 +241,11 @@ footer div{
     color: #272b3d;
 }
 
-.presentation, .documentation{
+.presentation,
+.documentation {
     padding: 2em;
     text-align: center;
-    
+
 }
 
 .video-container {
@@ -254,33 +260,33 @@ footer div{
     height: 80vh;
 }
 
-.container-3{
+.container-3 {
     display: grid;
     grid-template-columns: 1fr;
     padding: 3em;
     color: #272b3d;
 }
 
-.author{
+.author {
     padding: 0em;
     text-align: center;
     font-weight: bold;
 }
 
-.text{
-    padding:3em;
+.text {
+    padding: 3em;
 }
 
-.the-style{
+.the-style {
     text-align: center;
-    }
+}
 
-.the-style p{
+.the-style p {
     font-weight: bold;
     padding: 2em;
 }
 
-.the-style li{
+.the-style li {
     text-align: center;
     list-style-type: none;
     padding: 7em;
@@ -288,22 +294,21 @@ footer div{
 }
 
 
-.colors{
+.colors {
     background-image: url(/images/style_color.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-.typo{
-     background-image: 
-    url(/images/font.png);
+.typo {
+    background-image: url(/images/font.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-.picture{
+.picture {
     grid-column: 1/2;
     grid-row: 3/4;
     padding: 6em;
@@ -314,362 +319,545 @@ footer div{
 
 }
 
-.container-4{
+.container-4 {
     display: grid;
     grid-template-columns: 1fr;
     padding: 1em;
     color: #272b3d;
 }
 
-.contact{
-padding: 0em;
+.contact {
+    padding: 0em;
 }
 
-.contact p{
+.contact p {
     padding: .5em;
 }
 
-.info{
+.info {
     padding: 2em;
     text-align: center;
 }
 
 
 /* tablets   */
-@media only screen and (min-width : 480px){
 
-    .menu{
-    grid-template-columns: .1fr .5fr .5fr .5fr .5fr ;
-    padding: 1em;
-    width: 100%;
-}
+@media only screen and (min-width: 480px) {
 
-
-.logo-nav{
-    width: 100%;
-    height: 35px;
-    align-self: center;
-}
-
-
-.container-1{
-    grid-column: 1/5;
-    padding: 1em 10em 0em 10em;
-}
-
-.container-2{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 1em;
-}
-
-.container-2 div{
-    text-align: center;
-    align-self: center;
-}
-
-
-.mmd{
-    grid-column: 1/3;
-    padding: .3em;
-    width:100%;
-    background-color: #731240;
-}
-
-.mmd p{ 
-    background-color: #731240;
-    text-align: center;
-    color: #272b3d;
-    
-}
-
-.box1, .box2, .box3, .box4{
-    padding: 0em;
-    transition: ease-out;
-    color:#272b3d;
-    font-weight: bold;
-}
-
-.box1 p, box2 p, box3 p, box4 p{
-    padding: 3em;
-    font-size: 2em;
-    background: none;
-}
-
-.animation-title{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 6em 4em 4em 4em;
-}
-
-.hunchback li{
-    list-style-type: none;
-    padding: 1em;
-}
-
-.extra li{
-        list-style-type: none;
-    padding: 1em;
-}
-
-.app-title{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 4em;
-}
-
-.student{
-    grid-column: 1/3;
-    padding: 1em;
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-    color: #272b3d;
-}
-
-.presentation, .documentation{
-    padding: 2em;
-    text-align: center;
-    
-}
-
-.container-3{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 2em;
-    color: #272b3d;
-}
-
-.author{
-    padding: 1em;
-    text-align: center;
-    font-weight: bold;
-}
-
-.text{
-    padding:2em;
-}
-
-.the-style{
-    grid-column: 2/3;
-    grid-row: 1/4;
-    text-align: center;
+    .menu {
+        grid-template-columns: .1fr .5fr .5fr .5fr .5fr;
+        padding: 1em;
+        width: 100%;
     }
 
-.the-style p{
-    font-weight: bold;
-    padding: 1em;
-}
+    .logo-nav {
+        background-image: url(/images/logo_rose_sign.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 35px;
+        align-self: center;
+    }
 
-.the-style li{
-    text-align: center;
-    list-style-type: none;
-    padding: 5em;
 
-}
+    .container-1 {
+        grid-column: 1/5;
+        padding: 1em 10em 0em 10em;
+    }
 
-.picture{
-    grid-column: 1/2;
-    grid-row: 3/4;
-    padding: 7em;
-}
+    .container-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 1em;
+    }
 
-.container-4{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 2em;
-    color: #272b3d;
-}
+    .container-2 div {
+        text-align: center;
+        align-self: center;
+    }
 
-.contact{
-padding: 1em;
-}
 
-.contact p{
-    padding: .5em;
-}
+    .mmd {
+        grid-column: 1/3;
+        padding: .3em;
+        width: 100%;
+        background-color: #731240;
+    }
 
-.info{
-    padding: 2em;
-    text-align: center;
-}
+    .mmd p {
+        background-color: #731240;
+        text-align: center;
+        color: #272b3d;
+
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
+        padding: 0em;
+        transition: ease-out;
+        color: #272b3d;
+        font-weight: bold;
+    }
+
+    .box1 p {
+        padding: 3em;
+        font-size: 2em;
+        background: none;
+    }
+
+    .box1 p:hover {
+        opacity: 0;
+    }
+
+    .box1:hover {
+        background-image: url(/images/psychedelic_style_1280x619.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0.3;
+    }
+
+
+    .box2 p {
+        padding: 3em;
+        font-size: 2em;
+        background: none;
+    }
+
+    .box2 p:hover {
+        opacity: 0;
+    }
+
+    .box2:hover {
+        background-image: url(/images/logo_hunchback.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0.3;
+    }
+
+    .box3 p {
+        padding: 3em;
+        font-size: 2em;
+        background: none;
+    }
+
+    .box3 p:hover {
+        opacity: 0;
+    }
+
+    .box3:hover {
+        background-image: url(/images/logo_studenthub.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0.3;
+    }
+
+    .box4 p {
+        padding: 3em;
+        font-size: 2em;
+        background: none;
+    }
+
+    .box4 p:hover {
+        opacity: 0;
+    }
+    .box4:hover {
+        background-image: url(/images/logo_vidino.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0.3;
+    }
+
+
+    .animation-title {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 6em 4em 4em 4em;
+    }
+
+    .hunchback li {
+        list-style-type: none;
+        padding: 1em;
+    }
+
+    .extra li {
+        list-style-type: none;
+        padding: 1em;
+    }
+
+    .app-title {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 4em;
+    }
+
+    .student {
+        grid-column: 1/3;
+        padding: 1em;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        color: #272b3d;
+    }
+
+    .presentation,
+    .documentation {
+        padding: 2em;
+        text-align: center;
+
+    }
+
+    .container-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 2em;
+        color: #272b3d;
+    }
+
+    .author {
+        padding: 1em;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .text {
+        padding: 2em;
+    }
+
+    .the-style {
+        grid-column: 2/3;
+        grid-row: 1/4;
+        text-align: center;
+    }
+
+    .the-style p {
+        font-weight: bold;
+        padding: 1em;
+    }
+
+    .the-style li {
+        text-align: center;
+        list-style-type: none;
+        padding: 5em;
+
+    }
+    .colors {
+        background-image: url(/images/style_color.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .typo {
+        background-image: url(/images/font.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .picture {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        padding: 7em;
+        background-image: url(/images/picture-of-me_1000x666.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+    }
+
+    .container-4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 2em;
+        color: #272b3d;
+    }
+
+    .contact {
+        padding: 1em;
+    }
+
+    .contact p {
+        padding: .5em;
+    }
+
+    .info {
+        padding: 2em;
+        text-align: center;
+    }
 }
 
 
 /*  desktop  */
 
-
-@media only screen  and (min-width : 1200px) {
-
-
-.menu{
-    background-color: #595e77;
-     color: #272b3d;
-    display: grid;
-    grid-template-columns: .1fr 1fr 1fr 1fr 1fr ;
-    padding: 1em;
-    width: 100%;
-}
-
-.menu div{
-    background-color: #595e77; 
-    padding: .5em;
-    text-align: center;
-    width: 100%;
-}
+@media only screen and (min-width: 1200px) {
 
 
-.logo-nav{
-    width: 100%;
-    height: 20px;
-    align-self: center;
-}
-
-.container-1{
-    grid-column: 1/5;
-    padding: 1em 25em 1.5em 25em;
-}
-
-.empty-space{
-    padding: 1em;
-}
-
-
-.container-2{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 1em 10em 1em 10em;
-}
-
-.container-2 div{
-    text-align: center;
-    align-self: center;
-}
-
-
-.mmd{
-    grid-column: 1/3;
-    padding: .3em;
-    width:100%;
-    background-color: #731240;
-}
-
-.mmd p{ 
-    background-color: #731240;
-    text-align: center;
-    color: #272b3d;
-    
-}
-
-.box1, .box2, .box3, .box4{
-    padding: 2em;
-    transition: ease-out;
-    color:#272b3d;
-    font-weight: bold;
-}
-
-.box1 p, .box2 p, .box3 p, box4 p{
-    padding: 3em;
-    font-size: 2em;
-    background: none;
-}
-
-.animation-title{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 10em;
-}
-
-.hunchback li{
-    list-style-type: none;
-    padding: 2em;
-}
-
-.extra li{
-        list-style-type: none;
-    padding: 2em;
-}
-
-
-.app-title{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 5em;
-}
-
-.student{
-    grid-column: 1/3;
-    padding: 2em;
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-    color: #272b3d;
-}
-
-.presentation, .documentation{
-    padding: 2em;
-    text-align: center;
-    
-}
-
-.container-3{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 4em;
-    color: #272b3d;
-}
-
-.author{
-    padding: 2em;
-    text-align: center;
-    font-weight: bold;
-}
-
-.text{
-    padding:1em;
-}
-
-.the-style{
-    grid-column: 2/3;
-    grid-row: 1/4;
-    text-align: center;
+    .menu {
+        background-color: #595e77;
+        color: #272b3d;
+        display: grid;
+        grid-template-columns: .1fr 1fr 1fr 1fr 1fr;
+        padding: 1em;
+        width: 100%;
     }
 
-.the-style p{
-    font-weight: bold;
-    padding: 2em;
-}
+    .menu div {
+        background-color: #595e77;
+        padding: .5em;
+        text-align: center;
+        width: 100%;
+    }
 
-.the-style li{
-    text-align: center;
-    list-style-type: none;
-    padding: 6em;
-}
+    .logo-nav {
+        background-image: url(/images/logo_rose_sign.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 20px;
+        align-self: center;
+    }
 
-.picture{
-    grid-column: 1/2;
-    grid-row: 3/4;
-    padding: 9em;
-}
+    .container-1 {
+        grid-column: 1/5;
+        padding: 1em 25em 1.5em 25em;
+    }
 
-.container-4{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 5em;
-    color: #272b3d;
-}
+    .empty-space {
+        padding: 1em;
+    }
 
-.contact{
-padding: 1em;
-}
 
-.contact p{
-    padding: .5em;
-}
+    .container-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 1em 10em 1em 10em;
+    }
 
-.info{
-    padding: 4em;
-    text-align: center;
-}
+    .container-2 div {
+        text-align: center;
+        align-self: center;
+    }
+
+
+    .mmd {
+        grid-column: 1/3;
+        padding: .3em;
+        width: 100%;
+        background-color: #731240;
+    }
+
+    .mmd p {
+        background-color: #731240;
+        text-align: center;
+        color: #272b3d;
+
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
+        padding: 2em;
+        transition: ease-out;
+        color: #272b3d;
+        font-weight: bold;
+    }
+
+    .box1 p {
+        padding: 3em;
+        font-size: 2em;
+        background: none;
+    }
+
+    .box1 p:hover {
+        opacity: 0;
+    }
+
+    .box1:hover {
+        background-image: url(/images/psychedelic_style_1280x619.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0.3;
+    }
+
+
+    .box2 p {
+        padding: 3em;
+        font-size: 2em;
+        background: none;
+    }
+
+    .box2 p:hover {
+        opacity: 0;
+    }
+
+    .box2:hover {
+        background-image: url(/images/logo_hunchback.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0.3;
+    }
+
+    .box3 p {
+        padding: 3em;
+        font-size: 2em;
+        background: none;
+    }
+
+    .box3 p:hover {
+        opacity: 0;
+    }
+
+    .box3:hover {
+        background-image: url(/images/logo_studenthub.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0.3;
+    }
+
+    .box4 p {
+        padding: 3em;
+        font-size: 2em;
+        background: none;
+    }
+
+    .box4 p:hover {
+        opacity: 0;
+    }
+    .box4:hover {
+        background-image: url(/images/logo_vidino.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: 0.3;
+    }
+
+
+    .animation-title {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 10em;
+    }
+
+    .hunchback li {
+        list-style-type: none;
+        padding: 2em;
+    }
+
+    .extra li {
+        list-style-type: none;
+        padding: 2em;
+    }
+
+
+    .app-title {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 5em;
+    }
+
+    .student {
+        grid-column: 1/3;
+        padding: 2em;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        color: #272b3d;
+    }
+
+    .presentation,
+    .documentation {
+        padding: 2em;
+        text-align: center;
+
+    }
+
+    .container-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 4em;
+        color: #272b3d;
+    }
+
+    .author {
+        padding: 2em;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .text {
+        padding: 1em;
+    }
+
+    .the-style {
+        grid-column: 2/3;
+        grid-row: 1/4;
+        text-align: center;
+    }
+
+    .the-style p {
+        font-weight: bold;
+        padding: 2em;
+    }
+
+    .the-style li {
+        text-align: center;
+        list-style-type: none;
+        padding: 6em;
+    }
+
+
+    .colors {
+        background-image: url(/images/style_color.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .typo {
+        background-image: url(/images/font.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .picture {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        padding: 9em;
+        background-image: url(/images/picture-of-me_1000x666.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+    }
+    .container-4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 5em;
+        color: #272b3d;
+    }
+
+    .contact {
+        padding: 1em;
+    }
+
+    .contact p {
+        padding: .5em;
+    }
+
+    .info {
+        padding: 4em;
+        text-align: center;
+    }
 
 }

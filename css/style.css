@@ -39,7 +39,7 @@ body {
 }
 
 .logo-nav {
-    background-image: url(/images/logo_rose_sign.svg);
+    background-image: url(../images/logo_rose_sign.svg);
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
@@ -138,7 +138,7 @@ footer div {
 }
 
 .box1:hover {
-    background-image: url(/images/psychedelic_style_1280x619.png);
+    background-image: url(../images/psychedelic_style_1280x619.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -157,7 +157,7 @@ footer div {
 }
 
 .box2:hover {
-    background-image: url(/images/logo_hunchback.png);
+    background-image: url(../images/logo_hunchback.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -175,7 +175,7 @@ footer div {
 }
 
 .box3:hover {
-    background-image: url(/images/logo_studenthub.png);
+    background-image: url(../images/logo_studenthub.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -193,7 +193,7 @@ footer div {
 }
 
 .box4:hover {
-    background-image: url(/images/logo_vidino.png);
+    background-image: url(../images/logo_vidino.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -295,7 +295,7 @@ footer div {
 
 
 .colors {
-    background-image: url(/images/style_color.png);
+    background-image: url(../images/style_color.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -312,7 +312,7 @@ footer div {
     grid-column: 1/2;
     grid-row: 3/4;
     padding: 6em;
-    background-image: url(/images/picture-of-me_1000x666.jpg);
+    background-image: url(../images/picture-of-me_1000x666.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -351,7 +351,7 @@ footer div {
     }
 
     .logo-nav {
-        background-image: url(/images/logo_rose_sign.svg);
+        background-image: url(../images/logo_rose_sign.svg);
         background-repeat: no-repeat;
         background-position: center;
         width: 100%;
@@ -412,7 +412,7 @@ footer div {
     }
 
     .box1:hover {
-        background-image: url(/images/psychedelic_style_1280x619.png);
+        background-image: url(../images/psychedelic_style_1280x619.png);
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
@@ -431,7 +431,7 @@ footer div {
     }
 
     .box2:hover {
-        background-image: url(/images/logo_hunchback.png);
+        background-image: url(../images/logo_hunchback.png);
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
@@ -449,7 +449,7 @@ footer div {
     }
 
     .box3:hover {
-        background-image: url(/images/logo_studenthub.png);
+        background-image: url(../images/logo_studenthub.png);
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
@@ -466,7 +466,7 @@ footer div {
         opacity: 0;
     }
     .box4:hover {
-        background-image: url(/images/logo_vidino.png);
+        background-image: url(../images/logo_vidino.png);
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
@@ -547,14 +547,14 @@ footer div {
 
     }
     .colors {
-        background-image: url(/images/style_color.png);
+        background-image: url(../images/style_color.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
     }
 
     .typo {
-        background-image: url(/images/font.png);
+        background-image: url(../images/font.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
@@ -564,7 +564,7 @@ footer div {
         grid-column: 1/2;
         grid-row: 3/4;
         padding: 7em;
-        background-image: url(/images/picture-of-me_1000x666.jpg);
+        background-image: url(../images/picture-of-me_1000x666.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
@@ -615,7 +615,7 @@ footer div {
     }
 
     .logo-nav {
-        background-image: url(/images/logo_rose_sign.svg);
+        background-image: url(../images/logo_rose_sign.svg);
         background-repeat: no-repeat;
         background-position: center;
         width: 100%;
@@ -680,7 +680,7 @@ footer div {
     }
 
     .box1:hover {
-        background-image: url(/images/psychedelic_style_1280x619.png);
+        background-image: url(../images/psychedelic_style_1280x619.png);
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
@@ -699,7 +699,7 @@ footer div {
     }
 
     .box2:hover {
-        background-image: url(/images/logo_hunchback.png);
+        background-image: url(../images/logo_hunchback.png);
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
@@ -717,7 +717,7 @@ footer div {
     }
 
     .box3:hover {
-        background-image: url(/images/logo_studenthub.png);
+        background-image: url(../images/logo_studenthub.png);
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
@@ -734,7 +734,7 @@ footer div {
         opacity: 0;
     }
     .box4:hover {
-        background-image: url(/images/logo_vidino.png);
+        background-image: url(../images/logo_vidino.png);
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
@@ -817,14 +817,14 @@ footer div {
 
 
     .colors {
-        background-image: url(/images/style_color.png);
+        background-image: url(../images/style_color.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
     }
 
     .typo {
-        background-image: url(/images/font.png);
+        background-image: url(../images/font.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
@@ -834,7 +834,7 @@ footer div {
         grid-column: 1/2;
         grid-row: 3/4;
         padding: 9em;
-        background-image: url(/images/picture-of-me_1000x666.jpg);
+        background-image: url(../images/picture-of-me_1000x666.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>burger menu</title>
+    <style>
+        input{
+            display:none;  /*disappear little square*/
+        }
+        label{
+            cursor:pointer;
+        }
+        nav{
+            max-height: 0;
+            overflow:hidden;
+        }
+        input:checked ~ nav{
+            max-height: 500px;
+        }
+        nav ul{
+            list-style-type: none;
+            width: 100px;
+        }
+        nav a{
+            text-decoration: none;
+        }
+        
+        @media all and (min-width:30em){
+            body{
+                background-color:antiquewhite;
+            }
+            label{
+                display: none;
+            }
+            nav{
+                max-height: 3em;
+            }
+            nav li{
+                display:inline-block;
+            }
+            nav ul{
+                width: auto;
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+  <label for="toggle">&#9776;</label>
+   <input type="checkbox" id="toggle"> <!--little check square-->
+    <nav>
+        <ul>
+            <li><a href="#">Front page</a></li>
+            <li><a href="#">Style</a></li>
+            <li><a href="#">About the author</a></li>
+            <li><a href="#">Behind the design</a></li>
+        </ul>
+    </nav>
+    
+</body>
+</html>

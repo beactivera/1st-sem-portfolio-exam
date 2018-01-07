@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>test3</title>
+    <style>
+        /* mobile styles*/
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: sans-serif;
+        }
+        
+        header,
+        nav,
+        section,
+        aside,
+        footer {
+            background: #abc;
+        }
+        
+        main {
+            display: grid;
+            grid-gap: 3px;
+        }
+        /*tablet styles*/
+        
+        @media only screen and (min-width:30em) {
+            main {
+                grid-template-columns: repeat(5, 1fr);
+                grid-template-areas: "hd hd hd hd hd" "nav art art art as" "nav art art art as" "ft ft ft ft ft"
+            }
+            nav li {
+                display: inline;
+            }
+            header {
+                grid-area: hd;
+            }
+            nav {
+                grid-area: nav;
+            }
+            footer {
+                grid-area: ft;
+            }
+            article {
+                grid-area: art;
+                display: grid;
+                grid-gap: 3px;
+                grid-template-columns: repeat(3, 1fr);
+            }
+            section {
+                padding: 1rem;
+                
+            }
+            aside {
+                grid-area: as;
+            }
+        }
+        /*desktop stles */
+        
+        @media only screen and (min-width:60em) {}
+
+    </style>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h2>Psychedelic Style</h2>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="">Frontpage</a></li>
+                <li><a href="">Style</a></li>
+                <li><a href="">About the author</a></li>
+                <li><a href="">Behind the design</a></li>
+            </ul>
+        </nav>
+        <article>
+            <section>element</section>
+            <section>element</section>
+            <section>element</section>
+            <section>element</section>
+            <section>element</section>
+            <section>element</section>
+        </article>
+        <aside>
+            <h3>My name is Weronika</h3>
+            <p>I am a 19 old girl from Poland. I grow up in Gdynia. I have came to Copenhagen to start a new adventure and get an experience in studying and living abroad.</p>
+        </aside>
+    </main>
+    <footer>Copyright (C) Weronika Wdowiak 2017 </footer>
+</body>
+
+</html>

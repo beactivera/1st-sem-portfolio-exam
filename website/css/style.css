@@ -1,0 +1,240 @@
+html {
+    margin: inherit;
+    padding: inherit;
+}
+
+@font-face {
+    font-family: Love;
+    src: url(LoveSolid.ttf);
+}
+
+@font-face {
+    font-family: "Hippie Movement";
+    src: url(hippie-movement.regular.ttf);
+}
+
+@font-face {
+    font-family: Rockwell;
+    src: url(rockwen.ttf);
+}
+
+
+/* all pages*/
+
+* {
+    box-sizing: border-box;
+    font-family: 'Rockwell', sans-serif;
+    background-color: #7d8bd5;
+}
+
+body {
+    display: grid;
+    grid-gap: 3px;
+}
+
+main {
+    display: grid;
+    grid-gap: 3px;
+}
+
+section {
+    width: 100%;
+}
+
+#mypicture {
+    width: 100%;
+}
+
+header,
+footer {
+    grid-column: 1/-1;
+}
+nav li {
+    font-size: 1.5em;
+    display: block;
+}
+nav a:link {color: #6a11b5;
+            }
+
+
+nav a:visited{ color: #6a11b5;}
+
+nav a:hover{ color:#fcfafc; 
+    text-decoration: underline;
+             background-color: none;
+             transition: all 1s;
+          }
+nav a:active{ color: #6a11b5; }
+
+
+article a:visited{color:#6a11b5;
+    text-decoration-color: #6a11b5;}
+
+article a:hover{ color: #fcfafc; 
+text-decoration-color:#fcfafc; }
+
+input {
+    display: none;
+}
+
+label {
+    cursor: pointer;
+}
+
+nav {
+    max-height: 0;
+    overflow: hidden;
+}
+
+input:checked~nav {
+    max-height: 500px;
+}
+
+   
+article {
+    grid-column: 1/-1;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: 1fr;
+}
+
+header {
+    background: #7d8bd5;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: 100px 60px;
+    grid-template-areas: "logo h"
+}
+
+h2 {
+    grid-area: h;
+}
+
+#logo {
+    grid-area: logo;
+    width: 100%;
+}
+
+ .title{
+        background-color: #ed1c60;
+        font-size: 2em;
+    }
+    
+    .index{
+        background-color: #ed1c60;
+        font-size: 2em;
+    }
+    .other{
+        font-family: "Hippie movement", serif;
+        background-color: #ed1c60;
+        font-size: 2em;
+    }
+    
+    .subtitle{
+        font-family: "Hippie movement", serif;
+    font-size: 1.5em;
+           background-color: #00f00b;
+    }
+    
+    .style{
+        font-family: "Hippie movement", serif;
+    font-size: 2em;
+           background-color: #00f00b;
+    }
+    
+    
+    
+    .about{font-family: "Hippie movement", serif;
+     font-size: 1.5em;
+       background-color: #7d8bd5}
+
+    .design{font-family: "Hippie movement",  serif;
+        font-size: 1.5em;
+        }
+    
+.designers{font-size: 1.5em;}
+
+.authors-picture{ background-color: #00f00b;}
+
+/*tablet styles*/
+
+@media only screen and (min-width:30em) {
+    label {
+        display: none;
+    }
+    nav {
+        max-height: 3em;
+    }
+    nav li {
+        display: inline;
+        padding-right: 1em;
+    }
+    nav ul {
+        width: 100%;
+    }
+    nav li {
+        display: inline;
+    }
+   
+    .title{
+        background-color: #ed1c60;
+        font-size: 3em;
+    }
+    
+    .index{
+        background-color: #ed1c60;
+        font-size: 2em;
+    }
+    .other{
+        font-family: "Hippie movement", serif;
+        background-color: #ed1c60;
+        font-size: 2.2em;
+    }
+    
+    .subtitle{
+        font-family: "Hippie movement", serif;
+    font-size: 1.5em;
+           background-color: #00f00b;
+    }
+    
+    .style{
+        font-family: "Hippie movement", serif;
+    font-size: 2.5em;
+           background-color: #00f00b;
+    }
+    
+    
+    
+    .about{font-family: "Hippie movement", serif;
+     font-size: 1.5em;
+       background-color: #7d8bd5}
+
+    .design{font-family: "Hippie movement",  serif;
+        font-size: 1.5em;
+        }
+
+    article {
+        grid-column: 1/-1;
+        display: grid;
+        grid-gap: 3px;
+        grid-template-columns: 1fr 1fr;
+    }
+    #front-page-article {
+        grid-template-columns: 1fr;
+        font-size: 1.5em;
+    }
+    p{
+    font-size: 1.5em;
+}
+    nav ul li {
+        display: inline-block;
+        
+    }
+}
+
+
+/*desktop styles */
+
+@media only screen and (min-width:60em) {
+   
+}
